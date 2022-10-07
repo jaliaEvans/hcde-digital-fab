@@ -1,0 +1,76 @@
+/*
+
+    color palette:
+    lighter green: 606c38
+    dark green: 283618
+    light tan: fefae0
+    medium tan: dda15e
+    dark tan: bc6c25
+
+*/
+body {
+    font-family: monaco;
+    background: #153243;
+}
+
+.container-fluid {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.site-header {
+    background: #153243;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-header a {
+    color: #dda15e;
+    text-decoration: none;
+}
+
+.main-content {
+    background: #fefae0;
+    padding: 50px;
+}
+
+.list-no-dec {
+    padding-left: 0;
+    border: solid 3px #dda15e;
+    border-radius: 15px;
+}
+
+.list-no-dec li {
+    list-style: none;
+    margin-bottom: 30px;
+    background: #dda15e;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.list-no-dec li:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.list-no-dec li:last-child {
+    margin-bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+p strong {
+    text-decoration: underline;
+}
+
+footer {
+    background: #153243;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
