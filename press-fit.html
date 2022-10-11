@@ -1,0 +1,77 @@
+<html lang="en">
+
+<header>
+    <title>Assignment 1: Press Fits</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</header>
+
+<body>
+    <div class="home-hero">
+        <div class="site-header">
+            <div class="container-fluid">
+                <h1>Assignment 1: Modelling and Laser Cutting!</h1>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="container-fluid">
+                <div>
+                    <h1>Goals</h1>
+                    <ol>
+                        <li>Design shapes in Rhino</li>
+                        <li>Export them to Adobe Illustrator</li>
+                        <li>Cut them with a laser</li>
+                        <li>Press them together to make a shape</li>
+                    </ol>
+                </div>
+
+                <section>
+                    <h4>#1: Design shapes in Rhino</h4>
+                    <p>This was my first time working with 3D CAD software. I didn't even know that CAD meant "computer-aided design" before starting this class.</p>
+                    
+                    <p>I used both the <a href="https://docs.mcneel.com/rhino/7/help/en-us/index.htm" target="_blank">Rhino documentation website</a> and several Youtube videos to get a better understanding of the software. I found that <a href="https://www.youtube.com/watch?v=pKLSTQcFTUI&ab_channel=DesignPrototypeTest" target="_blank">Design Prototype Test</a> was very helpful. I want to learn CAD for the long term, so I knew that understanding the concepts of Rhino's operations and setup would be useful even if I end up switching to a different software in the future.</p>
+
+                    <h5>Measure before you start in CAD</h5>
+                    <p>Changing dimensions is very annoying in CAD, especially when you're using complex shapes. I thought I could just get some vague shapes and fine-tune them later, but changing heights and widths is tedious when adjusting complex 3d shapes.</p>
+                    <p>I estimated the depth of the cardboard because I was planning on using a laser cutter and was only thinking of the shape from a 2d point of view, but then I realized that the shapes need to fit together and that I needed to remeasure and adjust.</p>
+
+                    <h5>Working with components is helpful</h5>
+                    <p>When I first started creating and manipulating shapes, I was having to measure every detail and I found that my gaps and divots were not consistent in size.</p>
+                    <p>As a developer, I work with component libraries in React and it helps make everything go smoothly together. I built a small library of basic shapes to build off of in my samplePieces 3d model and built shapes by copying and fusing them together. It saved time and made things easier to keep track of.</p>
+                </section>
+
+                <section>
+                    <h4>#2: Export them to Adobe Illustrator</h4>
+                    <p>I built my models in the same samplePieces document from above, but I did not want to cut pieces for each shape and reference. I copied the final shapes into a new 3d model file, then exported that file to an Adobe Illustrator file (ai extension).</p>
+                    <p>Once I had the models in Illustrator, I cleaned up the excess lines that followed in the export. The laser cuts with a very thin beam, so I reduced the stroke from 1pt to .001pt, and I will test that in the laser cutter this week.</p>
+                </section>
+
+                <section>
+                    <h4>#3 and #4: Laser cutting and Press-Fitting</h4>
+                    <p> I was unable to use the laser cutter because of issues in the makerspace, but I will cut them this week and add my findings here.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-content">
+                <p>HCDE 533: Digital Fabrication</p>
+                <p>Autumn 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+    
+</html>
