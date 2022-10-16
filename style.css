@@ -86,7 +86,7 @@ p strong {
 }
 
 .assignment-thumbnail.thumbnail-1 {
-    background: url('assignment_1/wideshot.png');
+    background: url('assignment_1/media/pieces.png');
     background-position: center;
     background-size: cover;
 }
@@ -136,10 +136,36 @@ footer {
     justify-content: space-between;
 }
 
-
 /* assignment documentation sections */
+.project-goals {
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px #153243;
+    background: #c0c0c02e;
+}
+
+.project-goals h1 {
+    padding: 20px;
+    background: #283618;
+    color: white;
+}
+
+.project-goals ol {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.project-goals ol li {
+    /* display: inline-block; */
+    margin-bottom: 15px;
+}
+
+.doc-content {
+    margin-top: 50px;
+}
+
 section {
-    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 section h5 {
@@ -147,14 +173,41 @@ section h5 {
     text-decoration: underline;
 }
 
-.section-img {
-    width: 100%;
+
+/* photo gallery */
+.photo-gallery {
     height: 400px;
+    display: block;
     margin-bottom: 15px;
+    position: relative;
 }
 
-.section-img.first-rhino {
-    background: url('/assignment_1/wideshot.png');
+.vert-photo-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.photo-full {
+    height: 100%;
+    background: orange;
+}
+
+.rhino-1 {
+    background: url('./assignment_1/media/rhino-zoomed.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pieces-1 {
+    background: url('./assignment_1/media/pieces.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.assembled-1 {
+    background: url('./assignment_1/media/assembled.png');
     background-size: cover;
     background-position: center;
 }

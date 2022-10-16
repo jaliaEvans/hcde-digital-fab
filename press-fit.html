@@ -22,7 +22,28 @@
         </nav>
         <div class="main-content">
             <div class="container-fluid">
-                <div>
+                <div class="photo-gallery">
+                    <div class="row">
+                        
+                        <div class="col-md-4">
+                            <div class="vert-photo-grid">
+                                <div class="photo-full rhino-1"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vert-photo-grid">
+                                <div class="photo-full pieces-1"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vert-photo-grid">
+                                <div class="photo-full assembled-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-goals">
                     <h1>Goals</h1>
                     <ol>
                         <li>Design shapes in Rhino</li>
@@ -32,31 +53,55 @@
                     </ol>
                 </div>
 
-                <section>
-                    <h4>#1: Design shapes in Rhino</h4>
-                    <p>This was my first time working with 3D CAD software. I didn't even know that CAD meant "computer-aided design" before starting this class.</p>
-                    
-                    <p>I used both the <a href="https://docs.mcneel.com/rhino/7/help/en-us/index.htm" target="_blank">Rhino documentation website</a> and several Youtube videos to get a better understanding of the software. I found that <a href="https://www.youtube.com/watch?v=pKLSTQcFTUI&ab_channel=DesignPrototypeTest" target="_blank">Design Prototype Test</a> was very helpful. I want to learn CAD for the long term, so I knew that understanding the concepts of Rhino's operations and setup would be useful even if I end up switching to a different software in the future.</p>
+                <div class="doc-content">
+                    <section>
+                        <h4>#1: Design shapes in Rhino</h4>
+                        <p>This was my first time working with 3D CAD software. I didn't even know that CAD meant "computer-aided design" before starting this class.</p>
+                        
+                        <p>I used both the <a href="https://docs.mcneel.com/rhino/7/help/en-us/index.htm" target="_blank">Rhino documentation website</a> and several Youtube videos to get a better understanding of the software. I found that <a href="https://www.youtube.com/watch?v=pKLSTQcFTUI&ab_channel=DesignPrototypeTest" target="_blank">Design Prototype Test</a> was very helpful. I want to learn CAD for the long term, so I knew that understanding the concepts of Rhino's operations and setup would be useful even if I end up switching to a different software in the future.</p>
+    
+                        <h5>Measure before you start in CAD</h5>
+                        <p>Changing dimensions is very annoying in CAD, especially when you're using complex shapes. I thought I could just get some vague shapes and fine-tune them later, but changing heights and widths is tedious when adjusting complex 3d shapes.</p>
+                        <p>I estimated the depth of the cardboard because I was planning on using a laser cutter and was only thinking of the shape from a 2d point of view, but then I realized that the shapes need to fit together and that I needed to remeasure and adjust.</p>
+    
+                        <h5>Working with components is helpful</h5>
+                        <p>When I first started creating and manipulating shapes, I was having to measure every detail and I found that my gaps and divots were not consistent in size.</p>
+                        <p>As a developer, I work with component libraries in React and it helps make everything go smoothly together. I built a small library of basic shapes to build off of in my samplePieces 3d model and built shapes by copying and fusing them together. It saved time and made things easier to keep track of.</p>
+                    </section>
+    
+                    <section>
+                        <h4>#2: Export them to Adobe Illustrator</h4>
+                        <h5>Making test shapes</h5>
+                        <p>I exported my Rhino files to Illustrator, making sure to convert millimeters to inches (tip from Vanessa Chien).</p>
+                        <p>Once I had the models in Illustrator, I cleaned up the excess lines that followed in the export. I joined any stray anchor points with compound paths to create cohesive shapes. The laser cuts with a very thin beam, so I reduced the stroke from 1pt to 0.01pt.</p>
 
-                    <h5>Measure before you start in CAD</h5>
-                    <p>Changing dimensions is very annoying in CAD, especially when you're using complex shapes. I thought I could just get some vague shapes and fine-tune them later, but changing heights and widths is tedious when adjusting complex 3d shapes.</p>
-                    <p>I estimated the depth of the cardboard because I was planning on using a laser cutter and was only thinking of the shape from a 2d point of view, but then I realized that the shapes need to fit together and that I needed to remeasure and adjust.</p>
+                        <h5>Experiment and iterate</h5>
+                        <p>It was my first time working with the laser cutter, so I made several test prints. I mixed and matched my shapes. Once I settled upon the shape and structure I wanted to build, I arranged the layout for my cardboard sheet and sent the vectors to the printer.</p>
+                    </section>
+    
+                    <section>
+                        <h4>#3: Laser Cutting</h4>
+                        <h5>Working with recycled cardboard is annoying</h5>
+                        <p>I wanted to challenge myself this quarter to use as many free materials as possible. I collected cardboard boxes from my building's recycling room and broke them down for materials.</p>
+                        <p>I did not consider the fact that when you're recycling materials, you have no guarantee of consistency. I ran into many issues when trying to cut cardboard across the range of thicknesses (2mm to 4mm range), and it added a lot to my work. I don't regret it, but it's important to note.</p>
 
-                    <h5>Working with components is helpful</h5>
-                    <p>When I first started creating and manipulating shapes, I was having to measure every detail and I found that my gaps and divots were not consistent in size.</p>
-                    <p>As a developer, I work with component libraries in React and it helps make everything go smoothly together. I built a small library of basic shapes to build off of in my samplePieces 3d model and built shapes by copying and fusing them together. It saved time and made things easier to keep track of.</p>
-                </section>
+                        <h5>Have a plan for a fire before the fire starts</h5>
+                        <p>I worked with The 8's laser cutter, testing different settings with my materials. Vanessa and I were experimenting for the first time, and we set a small fire.</p>
+                        <p>Thankfully, we had the exhaust going and were watching the material closely, but there was definitely a moment of panic when we weren't sure what to do. We used the emergency stop, but it definitely made an impression.</p>
 
-                <section>
-                    <h4>#2: Export them to Adobe Illustrator</h4>
-                    <p>I built my models in the same samplePieces document from above, but I did not want to cut pieces for each shape and reference. I copied the final shapes into a new 3d model file, then exported that file to an Adobe Illustrator file (ai extension).</p>
-                    <p>Once I had the models in Illustrator, I cleaned up the excess lines that followed in the export. The laser cuts with a very thin beam, so I reduced the stroke from 1pt to .001pt, and I will test that in the laser cutter this week.</p>
-                </section>
+                        <h5>Experiment with settings</h5>
+                        <p>My cardboard sheets were different widths and heights, so I experimented with the laser cutter settings. I ultimately settled on 55% power, 50.6% speed, and 500 PPI.</p>
+                    </section>
 
-                <section>
-                    <h4>#3 and #4: Laser cutting and Press-Fitting</h4>
-                    <p> I was unable to use the laser cutter because of issues in the makerspace, but I will cut them this week and add my findings here.</p>
-                </section>
+                    <section>
+                        <h4>#4: Press Fitting</h4>
+                        <h5>Bring hand wipes</h5>
+                        <p>My materials were right off the laser cutter's board, and they shed soot and ash all over my workspace when I went to assemble the pieces. I will wipe my pieces before handling them next time, but I will also bring wipes to keep my hands clean.</p>
+
+                        <h5>Be okay with squishing parts together</h5>
+                        <p>My cardboard sheet sizes were inconsistent, so I spent some time negotiating with my pieces. I needed to press down on some pieces that were a little wonky, but I ultimately got a secure fit with my shapes and had a great time putting together my puzzle.</p>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
