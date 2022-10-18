@@ -76,6 +76,7 @@ p strong {
     padding: 20px;
     border: solid 1px #153243;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 .assignment-thumbnail {
@@ -87,6 +88,12 @@ p strong {
 
 .assignment-thumbnail.thumbnail-1 {
     background: url('assignment_1/media/pieces.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.assignment-thumbnail.thumbnail-2 {
+    background: url('assignment_2/media/rhino_grasshopper_screenshot.png');
     background-position: center;
     background-size: cover;
 }
