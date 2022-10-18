@@ -93,9 +93,9 @@ p strong {
 }
 
 .assignment-thumbnail.thumbnail-2 {
-    background: url('assignment_2/media/rhino_grasshopper_screenshot.png');
+    background: url('assignment_2/media/grasshopper-screenshot.png');
     background-position: center;
-    background-size: cover;
+    background-size: stretch;
 }
 
 
@@ -215,6 +215,24 @@ section h5 {
 
 .assembled-1 {
     background: url('./assignment_1/media/assembled.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.rhino-2 {
+    background: url('./assignment_2/media/rhino-screenshot.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.grasshopper-2 {
+    background: url('./assignment_2/media/grasshopper-screenshot.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.illustrator-2 {
+    background: url('./assignment_2/media/hex-illustrator-screenshot.png');
     background-size: cover;
     background-position: center;
 }

@@ -26,17 +26,17 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="vert-photo-grid">
-                                <div class="photo-full"></div>
+                                <div class="photo-full rhino-2"></div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="vert-photo-grid">
-                                <div class="photo-full"></div>
+                                <div class="photo-full grasshopper-2"></div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="vert-photo-grid">
-                                <div class="photo-full"></div>
+                                <div class="photo-full illustrator-2"></div>
                             </div>
                         </div>
                     </div>
@@ -45,17 +45,53 @@
                 <div class="project-goals">
                     <h1>Goals</h1>
                     <ol>
-                        <li>TBD</li>
+                        <li>Learn Grasshopper</li>
+                        <li>Create the Grasshopper code</li>
+                        <li>Bake Grasshopper code for Rhino</li>
+                        <li>Export to Illustrator</li>
+                        <li>Work with Laser Cutter</li>
                     </ol>
                 </div>
 
                 <div class="doc-content">
                     <section>
-                        <h4>H4</h4>
-                        <p>p</p>
+                        <h4>#1: Learn Grasshopper</h4>
+                        <p>Before this class, I saw complex Rhino models before and wondered how people were able to create such complex visuals and components. It turns out that these creators were using programming plugins like Grasshopper.</p>
+                        <p>I've been a programmer for a few years and work as a Design Technologist so I was familiar with coding, and I think that helped me a lot learning it. Grasshopper's drag and drop components reminded me of introductory coding tools like <a href="https://scratch.mit.edu/" target="_blank">Scratch</a>.
     
-                        <h5>H5</h5>
-                        <p>p</p>
+                        <h5>Watching Youtube videos and tutorials</h5>
+                        <p>The lecture in class was helpful, but I wanted to learn Grasshopper in depth. I watched videos from the <a href="https://www.youtube.com/c/ParametricHouse" target="_blank">Rhino Grasshopper</a> and <a href="https://www.youtube.com/watch?v=zDDVeDldvaI&ab_channel=GrasshopperTutorials" target="_blank">Grasshopper Tutorials</a> channels on Youtube and followed along with their instructions.</p>
+                    </section>
+                    <section>
+                        <h4>#2: Create the Grasshopper Code</h4>
+                        <p>To create the shapes in Rhino, I first had to work with the Grasshopper file. I worked with both windows up on my monitor in a split screen layout so I could see the live previews and adjust accordingly.</p>
+
+                        <h5>Radial Grid</h5>
+                        <p>I wanted to challenge myself to create a shape with more than 4 sides, so I used a Radial Grid to form my shape. The Radial Grid component took in values for the Size, Extent R and Extent P. I used Number Sliders so I could change values when I needed to.</p>
+                        <p>My plan was to create a 5 sided shape with Extent R's value and have the grid be 7 layers deep. I set the grid's size to 3 * 3.5 (3.5mm being my cardboard's width) so I could clip parts together in the  centers.</p>
+    
+                        <h5>Adjustable cardboard width with Number Sliders</h5>
+                        <p>I used Number Sliders in all of my components so I could change values later. I'm using recycled cardboard, so some sheets are 3.6mm wide, while others expand to 4mm or shrink to 2mm. Using sliders makes it easier to adjust and troubleshoot when using the laser later in the process.</p>
+
+                        <h5>Clips</h5>
+                        <p>I created cylinders and rectangles to act as clips in the assembly process. The shapes are built with Number Sliders to account for possible changes in the Radial Grid components.</p>
+                    </section>
+                    <section>
+                        <h4>#3: Bake Grasshopper Code for Rhino</h4>
+                        <p>To create shapes in Rhino from Grasshopper files, I had to bake the components. I used the default settings on the bakes and then manipulated them further in Rhino.</p>
+    
+                        <h5>Modifying the Radial Grid</h5>
+                        <p>I built the 5 sided shape with a Radial Grid because I knew I would need to remove portions of the shape to make room for clips. Having it be a grid let me skip the process of trimming and ensured a higher degree of accuracy. I took the rectangle I built with Grasshopper and used a BooleanDifference command to cut slots in the shapes.</p>
+                        <p>I used the same method to create slots in the cylinders to allow for different combinations of connectors and shapes in assembly.</p>
+                    </section>
+                    <section>
+                        <h4>#4: Export to Illustrator</h4>
+                        <p>I exported my Rhino file to Illustrator, taking care to match the millimeter units to avoid the sizing issues I experienced in Assignment 1.</p>
+                        <p>I created Compound Paths to make sure the paths were completely connected, then set the shapes' strokes to 0.01pt and the color red to format ahead of time for the laser.</p>
+                    </section>
+                    <section>
+                        <h4>#5: Work with the Laser Cutter</h4>
+                        <p>The laser cutters on campus weren't working when I was able to go to the makerspaces, so I am going to cut and assemble the shapes on Thursday afternoon. I will update this page with images and documentation after I'm able to cut them.</p>
                     </section>
                 </div>
             </div>
