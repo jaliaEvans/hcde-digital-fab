@@ -201,6 +201,8 @@ section h5 {
     background: orange;
 }
 
+/* assignment 1 media */
+
 .rhino-1 {
     background: url('./assignment_1/media/rhino-zoomed.png');
     background-size: cover;
@@ -219,6 +221,8 @@ section h5 {
     background-position: center;
 }
 
+/* assignment 2 media */
+
 .rhino-2 {
     background: url('./assignment_2/media/rhino-screenshot.png');
     background-size: cover;
@@ -233,6 +237,25 @@ section h5 {
 
 .illustrator-2 {
     background: url('./assignment_2/media/hex-illustrator-screenshot.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pieces-2 {
+    background: url('./assignment_2/media/pieces.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hex-mosaic-2 {
+    background: url('./assignment_2/media/hex-mosaic.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.circle-arch-2 {
+    background: url('./assignment_2/media/circle_house.png');
     background-size: cover;
     background-position: center;
 }
