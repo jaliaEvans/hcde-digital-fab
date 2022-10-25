@@ -1,0 +1,234 @@
+<html lang="en">
+
+<header>
+    <title>Assignment 3: Getting Started with 3D Printing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</header>
+
+<body>
+    <div class="home-hero">
+        <div class="site-header">
+            <div class="container-fluid">
+                <h1>Assignment 3: Getting Started with 3D Printing!</h1>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="container-fluid">
+                <div class="photo-gallery">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="vert-photo-grid">
+                                <div class="photo-full printer-3"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vert-photo-grid">
+                                <div class="photo-full collection-prints-3"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vert-photo-grid">
+                                <div class="photo-full book-holder-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-goals">
+                    <h1>Goals</h1>
+                    <ol>
+                        <li>Set up the 3D Printer</li>
+                        <li>Prepare the Files</li>
+                        <li>Print the Test Pieces</li>
+                        <li>Troubleshooting & Error Handling</li>
+                        <li>Extra Prints for Personal Purposes</li>
+                    </ol>
+                </div>
+
+                <div class="doc-content">
+                    <section>
+                        <h4>Set up the 3D Printer</h4>
+                        <p>I picked the Ender 3 S1 because it has many of the updates that people typically add to the Ender 3 and Ender 3 Pro. It cost a little more but it came with a magnetic flexible bed, LCD display, auto leveling and it was mostly assembled out of the box. I also wanted my machine to be compatible with Creality's laser engraver module so I could use it on future projects. I'm very interested in 3D printing beyond this class, so I watched many videos and read online posts to get advice and this was my pick.</p>
+    
+                        <h5>Pay attention to the climate and materials</h5>
+                        <p>One of the big pieces of advice I took from class was to keep my filament safe from moisture. I looked into the most effective containers and found that there were dryer boxes that could keep my filament safe and possibly save filament that became warped. I picked up a dryer box from <a href="https://www.sunlu.com/products/sunlu-filament-dryer-s1?variant=33163954258006" target="_blank">Sunlu</a>. I set up my white Hatchbox filament instead of using the spool holder at the top of my machine and it has been keeping my filament safe. It has a small hole in the side to feed filament through directly into the printer as it prints!</p>
+
+                        <h5>Have your own toolkit</h5>
+                        <p>The printer came with tools in the packaging, but some were flimsy and awkward to deal with. I was very happy to have my own toolkit on hand and I picked up the <a href="https://www.amazon.com/gp/product/B07CY15LYR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1" target="_blank">Filament Friday 3D Printing Tool Kit</a> and it's been working great for me.</p>
+
+                        <p>I used <a href="https://www.youtube.com/watch?v=I1mdQ8kd_LY&t=1019s&ab_channel=EmbraceMaking" target="_blank">this video</a> to help me set up my printer. I still needed to find tips from other forums on the wiring specifics but having a video was great since the Creality documentation is just pictures.</p>
+                        <div class="printer-setup"></div>
+                    </section>
+                    <section>
+                        <h4>Prepare the Files</h4>
+                        <p>I drew the shapes required in the homework (squares, cylinders, and nesting shapes) in Rhino, then exported the files as STLs and sliced them into GCode in Cura. I was happy that I could look through the Questions and Answers section on our class Discord, but I also used the Search functionality regularly. I found that it was very easy to toggle settings on and off through searching for keywords.</p>
+    
+                        <h5>Save copies on both your machine and the removable drive</h5>
+                        <p>The Cura option to save directly to the Removable Drive is very tempting, but if you need to clear the data off the SD Card quickly and you're not paying attention, you can easily lose files. I kept my files safe on my local drive, then copied those files onto the Removable Drive. That way even if my SD Card exploded, I would have the backup files.</p>
+                        <p>It seems like this wouldn't be that much of an issue because you can just open another STL file in the window to get another GCode file, but if you're customizing a lot of settings in your print, you might forget some of them when you're making the new one. I accidentally forgot the supports on one of my cylinder prints because of this.</p>
+                    </section>
+                    <section>
+                        <h4>Print the Test Pieces</h4>
+                        <p>We needed to print test cubes for the first section of the homework, and I'm glad we started small. My first cube print (the low quality 2cm). This print definitely took the most attempts because I was brand new to printing.</p>
+                        <p>My first tests were sticking to the plate and I was struggling to remove them. I switched to the tempered glass plate recommended in the syllabus, but then my prints weren't sticking at all. I switched back to the original plate, but then realized that when I switched from glass to original, I had leveled the bed, but not changed the Z-Offset. I changed the Z-Offset to -2.0 and leveled the bed. My prints went smoothly after that.</p>
+
+                        <div class="test-pieces-collection"></div>
+                        <h5>Cubes</h5>
+                        <ul>
+                            <li>
+                                A 2cm cube with the standard "low quality" settings:
+                                <ul>
+                                    <li>Time: 23 minutes</li>
+                                    <li>Measurement: 20.09mm with corners that extend to 20.31mm</li>
+                                    <li>Weight: 4 grams</li>
+                                    <li>Notes: the corners are slightly pointed and going over</li>
+                                </ul>
+                            </li>
+                            <li>
+                                A 2cm cube with the standard "standard quality" settings
+                                <ul>
+                                    <li>Time: 30 minutes</li>
+                                    <li>Measurement: 20.08mm X 20.08mm</li>
+                                    <li>Weight: 4 grams</li>
+                                    <li>Notes: Still have the bumps on the corners of the cubes</li>
+                                </ul>
+                            </li>
+                            <li>
+                                A 2cm cube with the standard "super quality" settings
+                                <ul>
+                                    <li>Time: 54 minutes</li>
+                                    <li>Measurement: 20.07mm X 20.07mm</li>
+                                    <li>Weight: 4 grams</li>
+                                    <li>Notes: The cubes don't have the extra bumps on the corners</li>
+                                </ul>
+                            </li>
+                            <li>
+                                A 2 cm cube with a concentric top and bottom layer and your favorite print setting from the previous cubes.
+                                <ul>
+                                    <li>Time: 29 minutes</li>
+                                    <li>Measurement: 20.07 X 20.21 mm - the top and bottoms being concentric made it slightly taller than wide</li>
+                                    <li>Print Setting: Standard</li>
+                                    <li>Notes: Clear X pattern on the top and bottom. I think it was more obvious than the automatic pattern, so I'd prefer to stick to it</li>
+                                </ul>
+                            </li>
+                        </ul>
+    
+                        <h5>Tubes & Cylinders</h5>
+                        <ul>
+                            <li>A tube 3cm in diameter and 3cm high with a single extrusion wall thickness
+                                <ul>
+                                    <li>Has bumps on the side of it, not sure if it's an issue with the extruder nozzle. I looked at sites for advice on blobs and am going to try them if they pop up again on the print with supports. The blobs did not appear on the cylinder with supports print, not sure why they appeared during this one. Maybe because of the single extrusion wall?</li>
+                                    <li>This tube was also much shorter than the others and I'm not sure why. I waited for the tube to complete, but it stopped about 3mm shorter than it should've been</li>
+                                    <li>Measurement: 24.59mm X 21.33mm</li>
+                                    <li>Time: 30 minutes</li>
+                                </ul>
+                            </li>
+                            <li>A tube 3cm in diameter and 3cm high with a double extrusion wall thickness and random z-seam alignment
+                                <ul>
+                                    <li>Time: 44 minutes</li>
+                                    <li>Measurement: 24.01mm X 24.52mm</li>
+                                    <li>Very clear blobs all around it, not a fan of it even though I couldn't see the regular linear seam</li>
+                                </ul>
+                            </li>
+                            <li>A cylinder 3cm in diameter exported with a 0.1mm tolerance
+                                <ul>
+                                    <li>Time: 43 minutes</li>
+                                    <li>Measurement: 24.55mm X 24.66mm</li>
+                                </ul>
+                            </li>
+                            <li>A cylinder 3cm in diameter exported with a 0.001mm tolerance
+                                <ul>
+                                    <li>Time: 44 minutes</li>
+                                    <li>Measurement: 24.80mm X 24.72mm</li>
+                                </ul>
+                            </li>
+                            <li>A cylinder 3cm in diameter with special mode "spiralize outer contour"
+                                <ul>
+                                    <li>Time: 28 minutes</li>
+                                    <li>Measurement: 24.39mm X 24.81mm</li>
+                                    <li>The walls are one nozzle width wide, and the cylinder is very malleable</li>
+                                </ul>
+
+                            </li>
+                            <li>A cylinder 3cm in diameter printed on its side with supports on
+                                <ul>
+                                    <li>Time: 1 hour and 44 minutes</li>
+                                    <li>Measurement: 24.58mm X 25.29mm</li>
+                                    <li>Took much longer and was incredibly irritating to try and remove the supports. Definitely encouraged me to print things as flat on the bed as possible</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="row">
+                            <div class="col-sm-6"><div class="photo-half nested-stacked"></div></div>
+                            <div class="col-sm-6"><div class="photo-half nested-apart"></div></div>
+                        </div>
+                        <h5>Nested Objects</h5>
+                        <p>I decided to print three boxes nested inside of each other for the test. I tried two methods, printing with them only a few mm apart vertically, and another with an entire box's height between them. I designed the second version because I was afraid that I wouldn't be able to separate the first design's boxes, but stopped the second design from printing when I was able to break the supports and see the pieces disconnect.</p>
+                        <p>The three pieces nest inside of each other and there is a small amount of supports left at the bottom.</p>
+                    </section>
+                    <section>
+                        <h4>Troubleshooting & Error Handling</h4>
+                        <p>Watching a 3D print is a lot like this:</p>
+                        <div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/tJ6dpaGeT8ATK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                        <br/>
+                        <p>It is the absolute WORST feeling to walk away from the printer and return to a mess of stringy plastic. After printing the test shapes I set up several objects I'd found online to print and while some of them printed successfully, I walked up to my printer in the morning to discover a giant nest of plastic sitting on top of my objects. I'm still not sure what went wrong overnight, I haven't had another print do that again. I'm keeping a close eye on my printer now and I have it sitting by my desk so I can keep an eye on it while I'm doing other work.</p>
+                        
+                        <h5>Lessons Learned</h5>
+                        <ol>
+                            <li>Make sure the Z-Offset is correctly calibrated</li>
+                            <li>Make sure the bed is leveled</li>
+                            <li>Preheat the nozzle (200&deg;C) and bed (60&deg;C)</li>
+                            <li>Keep the filament in a dry box (hopefully a dryer box on top of that)</li>
+                            <li>Don't commit to large prints until you're absolutely certain that the printer is calibrated correctly</li>
+                            <li>If possible, set up a camera that's pointed at the bed so you can check on it when you're away</li>
+                            <li>Read lots of posts and watch lots of Youtube Videos</li>
+                            <li>Get a flexible bed that'll make it easier to remove prints</li>
+                            <li>DO NOT TOUCH THE NOZZLE - IT WILL BURN YOU (yes, I did burn a hole in my thumb)</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <div class="row">
+                            <div class="col-sm-4"><div class="photo-trio holder"></div></div>
+                            <div class="col-sm-4"><div class="photo-trio miniature"></div></div>
+                            <div class="col-sm-4"><div class="photo-trio doorstop"></div></div>
+                        </div>
+                        <h4>Extra Prints for Personal Purposes</h4>
+                        <p>I wanted to print items that I knew were online but could be made much cheaper.</p>
+                        <br/>
+                        
+                        <p>First, I printed a book holder that makes it easier to hold the pages apart when reading. I downloaded the model from <a href="https://cults3d.com/en/3d-model/gadget/page-older" target="_blank">Cults</a> and my printer handled it perfectly. There's a small amount of stringing on the bottom, but it was easily handled in post.</p>
+    
+                        <br/>
+                        <p>Then I printed some miniatures for DND that I'd designed on <a href="heroforge.com" target="_blank">HeroForge</a>. I'm playing new characters this year: a Cleric and a Barbarian, so I wanted to see how close the printer could get to a store-bought model. HeroForge allows you to either order completed miniatures or download STL files for your own printer and it was triple the price for the most basic completed option from the company. I printed it myself for $7.99 each. Still steep for a 3d model, but for a custom DND miniature, it's a bargain. Removing the supports is irritating because there are lots of fine details, but I'm following <a href="https://www.youtube.com/watch?v=TR2DYi6B5YQ" target="_blank">this tutorial</a> and I'm making progress.</p>
+
+                        <br/>
+                        <p>My latest print is a new doorstop for my apartment. I'm carrying lots of materials in and out these days, and I need one. It's so convenient to be able to print little objects that I need for my house. I found a <a href="https://www.thingiverse.com/thing:463765" target="_blank">Simon the Cat Doorstop 3D model file</a> and I'm waiting for it to finish right now.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-content">
+                <p>HCDE 533: Digital Fabrication</p>
+                <p>Autumn 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+    
+</html>

@@ -65,6 +65,11 @@ p strong {
     text-decoration: underline;
 }
 
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
 
 /* thumbnails */
 .assignment-sidebar {
@@ -98,7 +103,11 @@ p strong {
     background-size: stretch;
 }
 
-
+.assignment-thumbnail.thumbnail-3 {
+    background: url('assignment_3/media/collection-prints.png');
+    background-position: center;
+    background-size: cover;
+}
 
 /* nav */
 nav {
@@ -201,6 +210,12 @@ section h5 {
     background: orange;
 }
 
+.photo-half, .photo-trio {
+    height: 400px;
+    width: 100%;
+    margin: 30px auto;
+}
+
 /* assignment 1 media */
 
 .rhino-1 {
@@ -256,6 +271,76 @@ section h5 {
 
 .circle-arch-2 {
     background: url('./assignment_2/media/circle_house.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* assignment 3 media */
+
+.printer-3 {
+    background: url('./assignment_3/media/printer-kitchen.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.collection-prints-3 {
+    background: url('./assignment_3/media/collection-prints.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.book-holder-3 {
+    background: url('./assignment_3/media/book-holder.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.printer-setup {
+    width: 100%;
+    display: block;
+    height: 400px;
+    background: url('./assignment_3/media/printer-final-location.png');
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto;
+}
+
+.test-pieces-collection {
+    width: 100%;
+    display: block;
+    height: 400px;
+    background: url('./assignment_3/media/collection-prints.png');
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto;
+}
+
+.photo-half.nested-apart {
+    background: url('./assignment_3/media/nested-apart.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-half.nested-stacked {
+    background: url('./assignment_3/media/nested-stacked.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-trio.holder {
+    background: url('./assignment_3/media/book-holder.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-trio.miniature {
+    background: url('./assignment_3/media/miniature.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-trio.doorstop {
+    background: url('./assignment_3/media/doorstop.png');
     background-size: cover;
     background-position: center;
 }
