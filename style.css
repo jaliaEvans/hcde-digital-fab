@@ -109,6 +109,12 @@ img {
     background-size: cover;
 }
 
+.assignment-thumbnail.thumbnail-4 {
+    background: url('assignment_4/media/box-assembled.png');
+    background-position: center;
+    background-size: cover;
+}
+
 /* nav */
 nav {
     background: #000;
