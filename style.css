@@ -344,3 +344,48 @@ section h5 {
     background-size: cover;
     background-position: center;
 }
+
+/* assignment 4 */
+
+.mill-4 {
+    background: url('./assignment_4/media/progress-1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pieces-4 {
+    background: url('./assignment_4/media/scrap-pieces.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-4 {
+    background: url('./assignment_4/media/box-assembled.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.rhino-4 {
+    background: url('./assignment_4/media/rhino-screenshot.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.spatula-4 {
+    background: url('./assignment_4/media/3d-spatula.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.progress-airpods-4 {
+    background: url('./assignment_4/media/progress-airpod.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.scrap-sadness-4 {
+    background: url('./assignment_4/media/scraps-sadness.png');
+    background-size: cover;
+    background-position: center;
+}
