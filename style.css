@@ -72,12 +72,7 @@ img {
 }
 
 /* thumbnails */
-.assignment-sidebar {
-    padding: 0;
-    list-style: none;
-}
-
-.assignment-sidebar li {
+.assignment-item {
     padding: 20px;
     border: solid 1px #153243;
     border-radius: 15px;
@@ -111,6 +106,12 @@ img {
 
 .assignment-thumbnail.thumbnail-4 {
     background: url('assignment_4/media/box-assembled.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.assignment-thumbnail.thumbnail-5 {
+    background: url('assignment_5/media/lickitung_side.png');
     background-position: center;
     background-size: cover;
 }
@@ -392,6 +393,61 @@ section h5 {
 
 .scrap-sadness-4 {
     background: url('./assignment_4/media/scraps-sadness.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* assignment 5 */
+.mesh-5 {
+    background: url('./assignment_5/media/lickitung_front.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.rhino-bulb-5 {
+    background: url('./assignment_5/media/lightbulb_replica.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.disintegrate-5 {
+    background: url('./assignment_5/media/5th_element.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mesh-1-5 {
+    background: url('./assignment_5/media/lickitung_pieces.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mesh-2-5 {
+    background: url('./assignment_5/media/lickitung_separate_hover.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.printed-lickitung {
+    background: url('./assignment_5/media/lickitung_side.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.fifth-element-5 {
+    background: url('./assignment_5/media/5th_element.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.echidna-5 {
+    background: url('./assignment_5/media/echidna.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.topography-5 {
+    background: url('./assignment_5/media/topography.png');
     background-size: cover;
     background-position: center;
 }
