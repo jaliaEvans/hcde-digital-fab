@@ -1,0 +1,172 @@
+%!PS-Adobe-3.0
+%%Creator: Rhinoceros
+%%Title: (light_cube_90X83.65_notche.)
+%%BoundingBox: -142 -99 114 139
+%%DocumentProcessColors: Black
+%%DocumentNeededResources: procset Adobe_packedarray 2.0 0
+%%+ procset Adobe_cmykcolor 1.1 0
+%%+ procset Adobe_cshow 1.1 0
+%%+ procset Adobe_customcolor 1.0 0
+%%+ procset Adobe_typography_AI3 1.0 0
+%%+ procset Adobe_IllustratorA_AI3 1.0 0
+%AI3_ColorUsage: Color
+%AI3_TemplateBox: 288 384 288 384
+%AI3_TileBox: 0 0 576 768
+%AI3_DocumentPreview: None
+%%Template:
+%%PageOrigin:0 0
+%%EndComments
+%%BeginProlog
+%%IncludeResource: procset Adobe_packedarray 2.0 0
+Adobe_packedarray /initialize get exec
+%%IncludeResource: procset Adobe_cmykcolor 1.1 0
+%%IncludeResource: procset Adobe_cshow 1.1 0
+%%IncludeResource: procset Adobe_customcolor 1.0 0
+%%IncludeResource: procset Adobe_typography_AI3 1.0 0
+%%IncludeResource: procset Adobe_IllustratorA_AI3 1.0 0
+%%EndProlog
+%%BeginSetup
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_typography_AI3 /initialize get exec
+Adobe_IllustratorA_AI3 /initialize get exec
+%%EndSetup
+%AI5_BeginLayer
+1 1 1 1 0 0 -1 0 0 0 Lb
+(Default) Ln
+0 A
+0 R
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+-141.7323 -98.7165 m
+-31.1811 -98.7165 L
+S
+113.3858 -98.7165 m
+113.3858 -98.7165 L
+S
+-141.7323 -98.7165 m
+-31.1811 -98.7165 L
+S
+-141.7323 -98.7165 m
+-141.7323 -98.7165 L
+S
+113.3858 -98.7165 m
+113.3858 138.4016 L
+S
+113.3858 138.4016 m
+113.3858 138.4016 L
+S
+113.3858 -98.7165 m
+113.3858 138.4016 L
+S
+113.3858 138.4016 m
+-141.7323 138.4016 L
+S
+-141.7323 138.4016 m
+-141.7323 138.4016 L
+S
+113.3858 138.4016 m
+-141.7323 138.4016 L
+S
+-141.7323 138.4016 m
+-141.7323 -98.7165 L
+S
+-141.7323 138.4016 m
+-141.7323 -98.7165 L
+S
+2.8346 -98.7165 m
+2.8346 -92.8382 1.7236 -86.5273 -0.8267 -81.1461 c
+-2.0996 -78.4604 -3.8067 -75.8482 -6.0395 -73.8217 c
+-7.2431 -72.7294 -8.6038 -71.8071 -10.1189 -71.1872 c
+-11.4123 -70.6581 -12.7710 -70.3701 -14.1732 -70.3701 c
+-15.5754 -70.3701 -16.9342 -70.6582 -18.2275 -71.1872 c
+-19.7427 -71.8071 -21.1034 -72.7294 -22.3070 -73.8218 c
+-24.5394 -75.8478 -26.2462 -78.4594 -27.5190 -81.1445 c
+-30.0698 -86.5260 -31.1811 -92.8377 -31.1811 -98.7165 C
+S
+-31.1811 -98.7165 m
+-31.1811 -98.7165 L
+S
+2.8346 -98.7165 m
+2.8346 -98.7165 L
+S
+-31.1811 -98.7165 m
+-31.1811 -92.8382 -30.0700 -86.5273 -27.5197 -81.1461 c
+-26.2469 -78.4604 -24.5398 -75.8482 -22.3069 -73.8217 c
+-21.1033 -72.7294 -19.7427 -71.8071 -18.2275 -71.1872 c
+-16.9342 -70.6581 -15.5754 -70.3701 -14.1732 -70.3701 c
+-12.7710 -70.3701 -11.4122 -70.6582 -10.1189 -71.1872 c
+-8.6037 -71.8071 -7.2431 -72.7294 -6.0395 -73.8218 c
+-3.8071 -75.8478 -2.1003 -78.4594 -0.8275 -81.1445 c
+1.7234 -86.5260 2.8346 -92.8377 2.8346 -98.7165 C
+S
+2.8346 -98.7165 m
+113.3858 -98.7165 L
+S
+2.8346 -98.7165 m
+113.3858 -98.7165 L
+S
+-141.7323 -98.7165 m
+-31.1811 -98.7165 L
+S
+113.3858 -98.7165 m
+113.3858 138.4016 L
+S
+113.3858 19.8425 m
+113.3858 19.8425 L
+S
+113.3858 138.4016 m
+-141.7323 138.4016 L
+S
+-14.1732 138.4016 m
+-14.1732 138.4016 L
+S
+-141.7323 138.4016 m
+-141.7323 -98.7165 L
+S
+-141.7323 19.8425 m
+-141.7323 19.8425 L
+S
+-141.7323 19.8425 m
+113.3858 19.8425 L
+S
+-14.1732 -70.3701 m
+-14.1732 138.4016 L
+S
+2.8346 -98.7165 m
+2.8346 -92.8382 1.7236 -86.5273 -0.8267 -81.1461 c
+-2.0996 -78.4604 -3.8067 -75.8482 -6.0395 -73.8217 c
+-7.2431 -72.7294 -8.6038 -71.8071 -10.1189 -71.1872 c
+-11.4123 -70.6581 -12.7710 -70.3701 -14.1732 -70.3701 c
+-15.5754 -70.3701 -16.9342 -70.6582 -18.2275 -71.1872 c
+-19.7427 -71.8071 -21.1034 -72.7294 -22.3070 -73.8218 c
+-24.5394 -75.8478 -26.2462 -78.4594 -27.5190 -81.1445 c
+-30.0698 -86.5260 -31.1811 -92.8377 -31.1811 -98.7165 C
+S
+-14.1732 -70.3701 m
+-14.1732 -70.3701 L
+S
+2.8346 -98.7165 m
+113.3858 -98.7165 L
+S
+-141.7323 19.8425 m
+113.3858 19.8425 L
+S
+-14.1732 -70.3701 m
+-14.1732 138.4016 L
+S
+LB
+%AI5_EndLayer--
+%%PageTrailer
+gsave annotatepage grestore showpage
+%%Trailer
+Adobe_IllustratorA_AI3 /terminate get exec
+Adobe_typography_AI3 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+%%EOF
