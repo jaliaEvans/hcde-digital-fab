@@ -69,6 +69,7 @@ img {
     display: block;
     margin: auto;
     max-width: 100%;
+    height: 100%;
 }
 
 /* thumbnails */
@@ -112,6 +113,12 @@ img {
 
 .assignment-thumbnail.thumbnail-5 {
     background: url('assignment_5/media/lickitung_side.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.assignment-thumbnail.thumbnail-6 {
+    background: url('assignment_6/media/lit_red.png');
     background-position: center;
     background-size: cover;
 }
