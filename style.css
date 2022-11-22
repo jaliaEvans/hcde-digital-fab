@@ -189,6 +189,7 @@ footer {
 .project-goals ol {
     margin-top: 20px;
     display: inline-block;
+    text-align: left;
 }
 
 .project-goals ol li {

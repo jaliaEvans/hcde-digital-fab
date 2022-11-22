@@ -1,0 +1,223 @@
+<html lang="en">
+
+<header>
+    <title>Assignment 7: Final Project Proposal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</header>
+
+<body>
+    <div class="home-hero">
+        <div class="site-header">
+            <div class="container-fluid">
+                <h1>Assignment 7: Final Project Proposal</h1>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="container-fluid">
+                <div class="project-goals">
+                    <h1>Requirements</h1>
+                    <ol>
+                        <li>Concept</li>
+                        <li>Breakdown of Tasks</li>
+                        <li>Timeline</li>
+                        <li>Bill of Materials</li>
+                    </ol>
+                </div>
+
+                <div class="doc-content">
+                    <section>
+                        <h4>Concept</h4>
+                        <p>I'm building a rapid light prototyping box to play with detailed lights with little commitment.</p>
+                        <p>I love lighting design but it can be hard to rapidly prototype my more complex plans. I want a better idea of the end result before I get invested.</p>
+                        <p>Many of the more interesting lighting ideas require lots of small parts to come together to show the full effect. I want a tool that I can use to get a rough idea of what I'm doing before I invest too much time or money into it.</p>
+
+                        <h5>Use Cases</h5>
+                        <p>I will be taking Physical Prototyping in the Winter 2023 quarter. I'm hoping to create more advanced lights when I know how to solder, but I don't want to be soldering wires if I'm unsure that I'll like the end result.</p>
+
+                        <h5>Sketches</h5>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <img src="assignment_7/media/sketch_1.png">
+                            </div>
+                            <div class="col-md-5">
+                                <img src="assignment_7/media/sketch_2.png">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="assignment_7/media/goodnotes_sketch_box-71.jpg">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="assignment_7/media/goodnotes_sketch_hinge-70.jpg">
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                    <section>
+                        <h4>Breakdown of Tasks & Timeline Milestones</h4>
+                        <br>
+                        <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th scope="col">Task</th>
+                                <th scope="col">Start date</th>
+                                <th scope="col">Finish date</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>CAD Modeling</td>
+                                <td>November 23</td>
+                                <td>November 29</td>
+                              </tr>
+                              <tr>
+                                <td>3D Printing</td>
+                                <td>November 29</td>
+                                <td>December 1</td>
+                              </tr>
+                              <tr>
+                                <td>Laser Cutting</td>
+                                <td>November 30</td>
+                                <td>December 2</td>
+                              </tr>
+                              <tr>
+                                <td>Assembling</td>
+                                <td>December 2</td>
+                                <td>December 5</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                        <h5>Techniques Used</h5>
+                        <ol>
+                            <li>Rhino</li>
+                            <li>Grasshopper</li>
+                            <li>Slicing</li>
+                            <li>3D Printing</li>
+                            <li>Laser Cutting</li>
+                            <li>Stock Parts</li>
+                        </ol>
+                        <br>
+                        <p>I'm in Arizona for Thanksgiving, so my plan is to get most of the CAD modeling done before I return and then spend the remaining time working with my 3D printer and the laser cutter. I've left time for contingencies and redesigns because unpredictable issues can always pop up.</p>
+                    </section>
+
+                    <section>
+                        <h4>Bill of Materials</h4>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="assignment_7/media/plastics.jpeg">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assignment_7/media/wled.jpeg">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assignment_7/media/dev_board.jpg">
+                            </div>
+                        </div>
+                        <br>
+                        <p>For this project, I need to order 3 products online and pick up acrylic and wood in Seattle.</p>
+                        
+                        <p>One of the core pieces of the box is an addressable LED strip. <a href="https://kno.wled.ge/" target="_blank">WLED</a> is an open source project that simplifies addressable LED strips for people who aren't skilled in hardware. I'm following tutorials from Youtube and the documentation from WLED themselves to build the frame that will hold the light strips.</p>
+                        <br>
+                        <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Count</th>
+                                <th scope="col">Travel Time</th>
+                                <th scope="col">Resource</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>WS2812B LED Strip</td>
+                                <td>1</td>
+                                <td>2 days</td>
+                                <td>Amazon</td>
+                              </tr>
+                              <tr>
+                                <td>ESP32 dev board</td>
+                                <td>1</td>
+                                <td>2 days</td>
+                                <td>Amazon</td>
+                              </tr>
+                              <tr>
+                                <td>Magnets (6mm X 3mm)</td>
+                                <td>50</td>
+                                <td>2 days</td>
+                                <td>Amazon</td>
+                              </tr>
+                              
+                            </tbody>
+                        </table>
+                        <br>
+                        <p>I am scheduling the online products to arrive the day I get back in Seattle and I'll be going to TAP Plastics the next day to pick up acrylic sheets of different thickness and opacities (mostly 1/8" and 1/16" thick). I use their scrap bin to find 11" X 11" sheets.</p>
+                        <p>I'm going to shop for the acrylic earlier than I need it so that I can order some online if they won't have them in stock quickly enough. If the addressable LED strip doesn't work, I have a simpler option of an solid multicolored LED strip that I already have.</p>
+                    </section>
+
+                    <section>
+                        <h4>Inspiration</h4>
+                        <p></p>
+                        <video width="100%" autoplay>
+                            <source src="assignment_7/media/inspiration/SplineWave1_EtsyVideo_qzf0mn.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        
+                        <br>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/engraved.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/exhibit.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/fibers.png">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/layer_light.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/stranger.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/waves.png">
+                            </div>
+                        </div>
+
+                        <h5></h5>
+                        <p></p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-content">
+                <p>HCDE 533: Digital Fabrication</p>
+                <p>Autumn 2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+    
+</html>
