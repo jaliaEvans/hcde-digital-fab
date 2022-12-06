@@ -1,0 +1,274 @@
+<html lang="en">
+
+<header>
+    <title>Final Project: Lite Box</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</header>
+
+<body>
+    <div class="home-hero">
+        <div class="site-header">
+            <div class="container-fluid">
+                <h1>Final Project: Lite Box</h1>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="container-fluid">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/m7xr2ADT8hQ" title="YouTube video player" frameborder="0" allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                <div class="doc-content">
+                    <section>
+                        <h4>Concept</h4>
+                        <p>I like to think with my hands. I work best when I can chop up some cardboard and use blue tape to slap an object together and figure things out manually.</p>
+                        <p>I love lighting design, but I hate how long it takes to take an idea from start to finish and want to be able to test things with minimal time investment. So I decided to build myself a light box for rapid prototyping.</p>                        
+
+                        <h5>Initial Sketches</h5>
+                        <p>I knew I wanted it to be as flexible as possible, so I designed a box where you could switch out all six faces. The box with the LED lights could sit underneath it to  allow the light to fill the box while still protecting the electronics.</p>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <img src="assignment_7/media/sketch_1.png">
+                            </div>
+                            <div class="col-md-5">
+                                <img src="assignment_7/media/sketch_2.png">
+                            </div>
+                        </div>
+
+                        <h5>Inspiration</h5>
+                        <p>These were some of the designs that I drew on when brainstorming my box design.</p>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/engraved.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/layer_light.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assignment_7/media/inspiration/fibers.png">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h4>Bill of Materials</h4>
+                        <p>For this box, I used:</p>
+                        <ul>
+                            <li>1 LED light strip that was sitting in my closet</li>
+                            <li>4 clear sheets of 1/8" scrap acrylic leftover from my lamp project</li>
+                            <li>1 white sheet of 1/16" scrap acrylic</li>
+                            <li>3 sheets of cardboard from my unreasonably large hoard</li>
+                            <li>Duct tape</li>
+                            <li>Hatchbox's Black PLA</li>
+                        </ul>
+
+                        <p>I spent $25 for the filament and everything else was scrap from previous projects.</p>
+                        
+                        
+                        <h5>Update from the proposal</h5>
+                        <p>I'm glad that I took Nadya's advice about not pushing too hard to use the addressable LED strips that I was thinking about in my proposal. I used the solid LED strips instead and they worked perfectly. I would like to eventually switch them for the more advanced ones, but the solid color works great for now and it saved my sanity.</p>
+                        <p>I bought a set of 3X5mm magnets to use in my LED container but realized that they weren't necessary for this iteration of the box. It was still fun to learn how to design with magnets and I'll be using them once I've got the addressable lights installed.</p>
+                        <p>I did buy the WLED lights and dev boards from my proposal and I'm looking forward to installing them next quarter when I'm learning soldering in the Physical Prototyping course.</p>
+                    </section>
+
+                    
+                    <section>
+                        <h4>My methods</h4>
+                        <p>For this project, I used:</p>
+                        <ol>
+                            <li>3d modeling</li>
+                            <li>3d printing</li>
+                            <li>Laser cutting</li>
+                            <li>Interference fits (press fitting)</li>
+                            <li>Incorporating stock parts</li>
+                        </ol>
+                    </section>
+
+
+                    <section>
+                        <h4>The LEDs</h4>
+                        <p>This project was a perfect example of why I want a physical tool that I can prototype with. I'm just not good at visualizing something unless I can write it out with a piece of paper and a ruler. I genuinely have no internal understanding of scale. I couldn't tell you what a car length is and someone saying "this is five miles away," means absolutely nothing to me.</p>
+
+                        <p>I knew I'd need to design around the LED strips at the heart of the box, so I watched tutorials about <a href="https://www.youtube.com/watch?v=vy0Pa1QrL3Q&ab_channel=InspiredLED" target="_blank">bending LED strips safely</a> and made a rough prototype with cardboard. One of the core pieces of this box was that it needed to be portable, so I focused A LOT on allowing for a mobile powerbank.</p>
+                        <p>Here is the 3d printed version I made with a 20X20mm slot on the back to allow for power access and controls.</p>
+                        <br />
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="final_project/photos/led-plan.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/led-power-bank.png">
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section>
+                        <h4>The upper box structure</h4>
+                        <p>I had no idea how hard it would be to make a box that I could swap all of the faces in and out of. I definitely think I overengineered it, but I'm happy with the result.</p>
+                        
+
+                        <h5>The top and bottom of upper box</h5>
+                        <p>The top and bottom of this box were both complicated and simple. I made at least 10 models of what I thought they should look like and ultimately settled on a version that you could pop faces in and out of easily with press fitting a tolerance of 0.5mm. I made sure that each piece can be used for the top and bottom interchangeably for ease of use.</p>
+                        <p>The top and bottom have posts 10mm inwards from the edge for the anchors to fit into. The anchors can be exchanged as well, with a tolerance of 0.6 because they are thicker and thus less flexible.</p>
+                        <p>The pieces have an inner lip to support faces and grids popping in and out. I knew that some heavy objects could be placed in the box, so I thought the lip would give stability and it meant that inserting faces into the top of the box still kept the surface flat.</p>
+                        <p>The top's (right picture) posts are 10mm shorter than the bottom's because I wanted them to be easier to remove. I lengthened the posts on the bottom to give more stability because they're less likely to be switched out.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="final_project/photos/renderings/led-lid.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/renderings/total-lid.png">
+                            </div>
+                        </div>
+                        <br><br>
+
+                        <h5>The anchors</h5>
+                        <p>The corners of this box are the real anchors for it. The faces change in thickness and need to be able to be exchanged quickly, so I went through at least 7 iterations for this design. These anchors are the bane of my existence and my biggest achievement.</p>
+                        <br>
+                        <div class="row">
+                            <img src="final_project/photos/renderings/anchor.png">
+                        </div>
+                        <br>
+                        <p>I had to account for a hole to fit the securing posts into, but needed to make sure that the slots for the side faces were completely open. I settled on this rail design instead of box joints because I didn't want to have to keep adjusting the frame for different material thickness. The opening in the rail fits anything from a 0.05mm sheet of printer paper to a 4mm piece of cardboard. I added a solid support for the actual corner itself because these are 155mm tall and needed the support.</p>
+                        <br>
+                        <br>
+                        <p>Printing these was a NIGHTMARE. They kept ripping off the bed and these things take 7 hours to print because I didn't want to risk the quality. I ended up printing with brims, waiting 45 minutes, and then putting duct tape on top of the brims to keep them stable. It was messy, but definitely worked.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="final_project/photos/duct-anchor.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/duct-anchors.png">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h4>Let's get artsy</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>I am not really a visually artistic person but I had a great time designing the files for laser cutting and engraving. I wanted to play with edge lighting and engraving, so I went to The MILL to engrave and cut. Thank you so much to Vanessa and Joyce for keeping me sane while we were trying to fix those machines.</p>
+                                <br>
+                                <p>While the larger pieces of the box were printing, I took the LED container I'd printed with me and because of its mobile power bank, was able to test things immediately! I learned fast about which settings I liked and my ideas came together quickly.</p>
+                                <br/>
+                                <p>It became very clear that the box was doing exactly what I wanted it to do. It was inspiring me to mess around with different art and I loved experimenting with different line weights and engraving strengths. I even cut paper and wood for the first time!</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/test-acrylic-light.png">
+                            </div>
+                        </div>
+
+                        <h5>Supporting different materials</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>This box is meant for experimenting so it needs to be able to handle things of all shapes and sizes. It's much larger than any of my previous projects, at approximately 170 X 160 X 160mm, but I knew that I would want to be able to toss anything into it with as little planning as possible.</p>
+                                <br>
+                                <p>I measured the thickness of my most frequent materials (1/8" - 1/16" acrylic, cardboard, and paper). I designed pieces that fit the inner faces of the box with two components: the support, and the slot rail.</p>
+                                <br>
+                                <p>Having a support structure that's universal means that if I decide that I want to switch to a 3mm or 7mm thickness material, I just grab some cardboard and cut 2 more pieces that'll fit my rails. The supports even allow for multiple widths of material!</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/slot-supports.png">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h4>Final shots</h4>
+                        <p>Being able to finally mess around with this box when it was completed was so much fun. I just kept sticking random things into it to see how they would look in different lighting situations. I started with acrylic in the styles I'd originally seen after designing them in Illustrator and Rhino. Then I started sticking random things that I'd 3d printed this quarter into it.</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="final_project/photos/lit-red-ghost.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/lit-green-totoro.png">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="final_project/photos/lit-swirl.png">
+                            </div>
+                        </div>
+                        <br>
+
+                        <p>Then I got inspired to cut an art piece for my parents' house <a href="https://www.etsy.com/listing/1310369276/svg-ai-dxf-eps-pdf-png-multilayer?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=desert+laser+files&ref=sr_gallery-1-4&organic_search_click=1" target="_blank">(here's the Etsy link for the files)</a>. I realized that I could cut a miniature version of this desert landscape from Etsy and bring it to Maine for Christmas, then mail my mom a full-sized one instead of having to fit it into my suitcase. I cut the files in cardstock, acrylic, and a piece of wood I stole from the recycling.</p>
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="final_project/photos/lit-acrylic-cactus.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="final_project/photos/lit-paper-cactus.png">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h4>Showing it swapping in and out</h4>
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/z8B2awSXcBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+
+                    <section>
+                        <h4>Final notes</h4>
+                        <p>Here are the things that I focused on:</p>
+                        
+
+                        <h5>Trying to be environmentally friendly</h5>
+                        <ul>
+                            <li>Recycling material/scrap from old projects</li>
+                            <li>Using my silicone mold's back as a glue pad since glue doesn't stick to it</li>
+                            <li>Using failed pieces of the prints as test pieces when going on campus to laser cut cardboard slots</li>
+                            <li>Sanding the hell out of pieces even when they seem like they won't fit and you've already scraped yours hands up</li>
+                            <li>Using cardboard for the sides/inserts and painting them black to avoid using more PLA</li>
+                        </ul>
+                        
+
+                        <h5>Future steps</h5>
+                        <ul>
+                            <li>Install the addressable LED lights or at least have a version of them to insert into the box</li>
+                            <li>Learn to solder for this</li>
+                            <li>Get mirror film and other colored films to test things like infinity mirrors</li>
+                            <li>Try out stained glass work in it</li>
+                            <li>Continue trying different side panels for different features (rails, hanging items, etc)</li>
+                            <li>Super glue magnets into the holes I designed in the bottom of the LED case so I can attach magnetic panels (already checked that magnets shouldn't affect my LED lights)</li>
+                            <li>Install some sort of support for wiring, currently the USB connector hangs out the side → had to replace connectors on the LED strip because they warped the first time and weren’t functioning correctly</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <h4>Source files</h4>
+                        <p>If anyone would like to see my source files for themselves, here's a link to my <a href="https://github.com/jaliaEvans/jaliaEvans.github.io" target="_blank">full Github repository</a>.</p>
+                        <p>Here's the <a href="https://cults3d.com/en/3d-model/art/totoro-chibi-halloween-edition-free-for-24-hours" target="_blank">link to the Totoro file</a>. The ghost finger puppet and skull bowl models aren't at the places I originally got them, but I can email STLs if anyone wants them.</p>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-content">
+                <p>HCDE 533: Digital Fabrication</p>
+                <p>Autumn 2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+    
+</html
