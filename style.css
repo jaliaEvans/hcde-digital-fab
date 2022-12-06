@@ -129,6 +129,12 @@ img {
     background-size: cover;
 }
 
+.assignment-thumbnail.thumbnail-8 {
+    background: url('final_project/photos/lit-paper-cactus.png');
+    background-position: center;
+    background-size: cover;
+}
+
 /* nav */
 nav {
     background: #000;
